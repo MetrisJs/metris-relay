@@ -1,0 +1,23 @@
+{
+  "name": "metris-relay",
+  "version": "0.0.0",
+  "description": "The relay is a socket server that all metris bases connect to in order to transmit data to the desired target.",
+  "main": "relay.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -c -w --recursive -r test/setup.js test/**/*.test.js"
+  },
+  "keywords": [
+    "performance",
+    "metrics",
+    "analytics",
+    "dashboard"
+  ],
+  "author": "Niroshan Sugirtharatnam",
+  "license": "private",
+  "devDependencies": {
+    "chai": "^1.9.1"
+  }
+}
