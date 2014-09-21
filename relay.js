@@ -45,10 +45,7 @@ function Relay(config) {
 }
 
 Relay.prototype.addBase = function (baseType, base) {
-
-  //Every metris base will have the same api
   this.bases[base.name] = base;
-
 };
 
 module.exports = Relay;
